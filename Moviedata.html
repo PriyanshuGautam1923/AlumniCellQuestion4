@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Movie database</title>
+	<link rel="stylesheet" type="text/css" href="Moviedata.css">
+</head>
+<body>
+	<div class="heading">
+		<h1>The Movie Database</h1>
+	</div>
+		<div class="heading adjustments">
+			<form>
+				<label for="moviename">Enter the name of the movie</label><br>
+				<input type="text" name="moviename" id="moviename"><br><br>
+				<label for="imdbrating">Enter the imdb rating of the movie</label><br>
+				<input type="number" name="imdbrating" id="imdbrating" step="0.1">
+			</form>
+			<div class="btn">
+					<br><button id="btn">Add</button>	
+				</div>
+			
+		</div>
+		<div class="heading" id="list">
+		<h1>The Listings</h1>
+	</div>
+	
+	<table class="heading">
+		<tr>
+			<th class="thstyle">S.No</th>
+			<th class="thstyle">Name</th>
+			<th class="thstyle">Rating</th>
+		</tr>
+		<tr class="tr1">
+			<td>1.</td>
+			<td>3 Idiots</td>
+			<td class="last">10</td>
+		</tr>
+		<tr class="tr2">
+			<td>2.</td>
+			<td>Chhichhore</td>
+			<td class="last">10</td>
+		</tr>
+	</table>
+
+<script type="text/javascript" src="Moviedata.js"></script>
+</body>
+</html>
